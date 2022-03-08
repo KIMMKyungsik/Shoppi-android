@@ -20,6 +20,8 @@
         android:layout_height="0dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
+        android:contentDescription="@string/description_product_detail_thumbnail"
+        android:src="@drawable/img_pdp_top_01"
         app:layout_constraintDimensionRatio="w,1:1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -30,11 +32,57 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="16dp"
+        android:text="twg.official"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/product_detail_thumbnail"
-        android:text="twg.official"/>
+        app:layout_constraintTop_toBottomOf="@id/product_detail_thumbnail" />
+
+
+    <TextView
+        android:id="@+id/tv_product_detail_lable"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:text="[19차 리오더] 페이크레더 숏 테일러 자켓 블랙"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_product_detail_brand_name" />
+
+
+    <TextView
+        android:id="@+id/tv_product_detail_discount_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text="10%"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_product_detail_lable" />
+
+    <TextView
+        android:id="@+id/tv_detail_discount_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:textSize="18sp"
+        android:text="99,800원"
+        app:layout_constraintBottom_toBottomOf="@id/tv_product_detail_discount_rate"
+        app:layout_constraintStart_toEndOf="@id/tv_product_detail_discount_rate"
+        app:layout_constraintTop_toTopOf="@id/tv_product_detail_discount_rate" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="110,000원"
+        android:textSize="14sp"
+        android:layout_marginStart="6dp"
+        app:layout_constraintStart_toEndOf="@id/tv_detail_discount_price"
+        app:layout_constraintBaseline_toBaselineOf="@id/tv_detail_discount_price"
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
