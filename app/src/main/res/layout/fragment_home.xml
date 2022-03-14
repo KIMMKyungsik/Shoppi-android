@@ -19,15 +19,16 @@
             app:layout_scrollFlags="scroll|enterAlways">
 
             <TextView
+                style="@style/TextHeadline5.Black02.Bold"
                 android:id="@+id/toolbar_home_title"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingStart="16dp"
+                android:maxLines="2"
+                android:layout_marginEnd="72dp"
+                android:paddingEnd="16dp"
                 android:paddingTop="32dp"
                 android:paddingBottom="24dp"
-                android:textColor="@color/shoppi_black_02"
-                android:textSize="24dp"
-                android:textStyle="bold"
                 tools:text="KKS님, 이런 상품\n어때요?" />
 
             <ImageView

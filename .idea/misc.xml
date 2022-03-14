@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/LG/Desktop/Shoppi-android/app/src/main/res/drawable/background_splash_screen.xml" value="0.37916666666666665" />
+        <entry key="..\:/Users/LG/Desktop/Shoppi-android/app/src/main/res/drawable/background_white.xml" value="0.37916666666666665" />
         <entry key="..\:/Users/LG/Desktop/Shoppi-android/app/src/main/res/drawable/ic_gnb_back.xml" value="0.37916666666666665" />
         <entry key="..\:/Users/LG/Desktop/Shoppi-android/app/src/main/res/drawable/selector_cart_icon.xml" value="0.3037037037037037" />
         <entry key="..\:/Users/LG/Desktop/Shoppi-android/app/src/main/res/drawable/selector_category_icon.xml" value="0.3037037037037037" />
@@ -14,6 +15,7 @@
         <entry key="..\:/Users/LG/Desktop/Shoppi-android/app/src/main/res/layout/fragment_category.xml" value="0.36302083333333335" />
         <entry key="..\:/Users/LG/Desktop/Shoppi-android/app/src/main/res/layout/fragment_home.xml" value="0.2115036231884058" />
         <entry key="..\:/Users/LG/Desktop/Shoppi-android/app/src/main/res/layout/fragment_product_detail.xml" value="0.36302083333333335" />
+        <entry key="..\:/Users/LG/Desktop/Shoppi-android/app/src/main/res/layout/item_home_banner.xml" value="0.36302083333333335" />
         <entry key="..\:/Users/LG/Desktop/Shoppi-android/app/src/main/res/menu/navigation_main_menu.xml" value="0.36302083333333335" />
       </map>
     </option>
