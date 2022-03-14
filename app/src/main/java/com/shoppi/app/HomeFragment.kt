@@ -6,6 +6,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.ImageView
+import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import org.json.JSONArray
@@ -24,12 +26,9 @@ class HomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val button = view.findViewById<Button>(R.id.btn_enter_product_detail)
-        button.setOnClickListener {
-            findNavController().navigate(R.id.action_home_to_product_detail)
+        val toolbarTitle = view.findViewById<TextView>(R.id.toolbar_home_title)
+        val toolbarIcon = view.findViewById<ImageView>(R.id.toolbar_home_icon)
 
-
-        }
         val assetLoader = AssetLoader()
         val homeData = assetLoader.getJsonString(requireContext(), "home.json")
         Log.d("homeData", homeData ?: "")
@@ -40,14 +39,11 @@ class HomeFragment : Fragment() {
             val text = title.getString("text")
             val iconUrl = title.getString("icon_url")
 
-            val topBannsers =  jsonObject.getJSONArray("top banners")
-            val firstBanner = topBannsers.getJSONObject(0)
-            val label = firstBanner.getString("label")
-            val productDetail = firstBanner.getJSONObject("product_detail")
-            val price = productDetail.getInt("price")
+            toolbarTitle.text = text
 
-            Log.d("title", "text = ${text}, iconUrl = ${iconUrl}")
-            Log.d("firstBanner", "label = ${label}, price = ${price}")
+            GlideApp.with(this)
+                .load(iconUrl)
+                .into(toolbarIcon)
 
         }
 
