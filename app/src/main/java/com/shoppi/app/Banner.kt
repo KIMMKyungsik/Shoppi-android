@@ -1,10 +1,12 @@
 package com.shoppi.app
 
+import com.google.gson.annotations.SerializedName
+
 data class Banner(
-    val backgroundImageUrl: String,
+    @SerializedName("background_image_url") val backgroundImageUrl: String,
     val badge: BannerBadge,
     val label: String,
-    val productDetail : ProductDetail
+    @SerializedName("product_detail") val productDetail: ProductDetail
 
 
 )
@@ -12,15 +14,15 @@ data class Banner(
 data class BannerBadge(
 
     val label: String,
-    val backGroundColor: String
+    @SerializedName("backgroundcolor") val backGroundColor: String
 )
 
 data class ProductDetail(
-    val brandName: String,
+    @SerializedName("brand_name") val brandName: String,
     val label: String,
-    val discountRate : Int,
-    val price : Int,
-    val thumbnailImageUrl : String,
-    val productId : String
+    @SerializedName("discount_rate") val discountRate: Int,
+    val price: Int,
+    @SerializedName("thumbnail_image_url") val thumbnailImageUrl: String,
+    @SerializedName("product_id") val productId: String
 
 )
