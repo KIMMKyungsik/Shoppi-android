@@ -9,6 +9,9 @@
         <entry key="..\:/Users/LG/Desktop/Shoppi-android/app/src/main/res/drawable/selector_cart_icon.xml" value="0.3037037037037037" />
         <entry key="..\:/Users/LG/Desktop/Shoppi-android/app/src/main/res/drawable/selector_category_icon.xml" value="0.3037037037037037" />
         <entry key="..\:/Users/LG/Desktop/Shoppi-android/app/src/main/res/drawable/selector_home_icon.xml" value="0.37916666666666665" />
+        <entry key="..\:/Users/LG/Desktop/Shoppi-android/app/src/main/res/drawable/selector_viewpager_indicator.xml" value="0.37916666666666665" />
+        <entry key="..\:/Users/LG/Desktop/Shoppi-android/app/src/main/res/drawable/unselected_viewpager_indicator.xml" value="0.37916666666666665" />
+        <entry key="..\:/Users/LG/Desktop/Shoppi-android/app/src/main/res/drawable/unselector_viewpager_indicator.xml" value="0.37916666666666665" />
         <entry key="..\:/Users/LG/Desktop/Shoppi-android/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/LG/Desktop/Shoppi-android/app/src/main/res/layout/activity_product_detail.xml" value="0.2957427536231884" />
         <entry key="..\:/Users/LG/Desktop/Shoppi-android/app/src/main/res/layout/fragment_cart.xml" value="0.2115036231884058" />
