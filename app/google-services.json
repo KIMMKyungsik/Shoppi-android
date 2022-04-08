@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "53612781992",
+    "firebase_url": "https://capstone-ba458.firebaseio.com",
+    "project_id": "capstone-ba458",
+    "storage_bucket": "capstone-ba458.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53612781992:android:7838f1b5e0b1965ae17d9d",
+        "android_client_info": {
+          "package_name": "org.techtown.mylogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53612781992-6annj6muj90975colm8k05mklj6t00f4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTBwDAgAeUJhGmX55TsSa1x2m_t5GGJko"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "53612781992-6annj6muj90975colm8k05mklj6t00f4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
