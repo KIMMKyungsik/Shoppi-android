@@ -1,34 +1,33 @@
 {
   "project_info": {
-    "project_number": "53612781992",
-    "firebase_url": "https://capstone-ba458.firebaseio.com",
-    "project_id": "capstone-ba458",
-    "storage_bucket": "capstone-ba458.appspot.com"
+    "project_number": "87547840136",
+    "project_id": "shoppi-fe2d9",
+    "storage_bucket": "shoppi-fe2d9.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:53612781992:android:7838f1b5e0b1965ae17d9d",
+        "mobilesdk_app_id": "1:87547840136:android:38b341daa1f4a044bcc13d",
         "android_client_info": {
-          "package_name": "org.techtown.mylogin"
+          "package_name": "com.shoppi.app"
         }
       },
       "oauth_client": [
         {
-          "client_id": "53612781992-6annj6muj90975colm8k05mklj6t00f4.apps.googleusercontent.com",
+          "client_id": "87547840136-6bf2v5meo4e3utgtlrfg7nh0q775g47a.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDTBwDAgAeUJhGmX55TsSa1x2m_t5GGJko"
+          "current_key": "AIzaSyDFHzq8ZwbGmHR-FjpvV8u5GMVICbcIvTs"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "53612781992-6annj6muj90975colm8k05mklj6t00f4.apps.googleusercontent.com",
+              "client_id": "87547840136-6bf2v5meo4e3utgtlrfg7nh0q775g47a.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
