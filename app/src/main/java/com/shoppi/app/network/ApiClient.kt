@@ -2,6 +2,7 @@ package com.shoppi.app.network
 
 import com.google.gson.Gson
 import com.shoppi.app.model.Category
+import com.shoppi.app.model.CategoryDetail
 import okhttp3.OkHttp
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
@@ -13,6 +14,9 @@ interface ApiClient {
 
     @GET("categories.json")
     suspend fun getCategories():List<Category>
+
+    @GET("fashion_female.json")
+    suspend fun getCategoryDetail() :CategoryDetail
 
     companion object {
        private const val baseUrl = "https://shoppi-fe2d9-default-rtdb.asia-southeast1.firebasedatabase.app/"

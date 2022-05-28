@@ -5,11 +5,14 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.shoppi.app.AssetLoader
 import com.shoppi.app.network.ApiClient
-import com.shoppi.app.repository.CategoryRemoteDataSource
-import com.shoppi.app.repository.CategoryRepository
-import com.shoppi.app.repository.HomeAssetDataSource
-import com.shoppi.app.repository.HomeRepository
+import com.shoppi.app.repository.category.CategoryRemoteDataSource
+import com.shoppi.app.repository.category.CategoryRepository
+import com.shoppi.app.repository.categorydetail.CategoryDetailRemoteDataSource
+import com.shoppi.app.repository.categorydetail.CategoryDetailRepository
+import com.shoppi.app.repository.home.HomeAssetDataSource
+import com.shoppi.app.repository.home.HomeRepository
 import com.shoppi.app.ui.category.CategoryViewModel
+import com.shoppi.app.ui.categorydetail.CategoryDetailViewModel
 import com.shoppi.app.ui.home.HomeViewModel
 import java.lang.IllegalArgumentException
 
@@ -24,8 +27,14 @@ class ViewModelFactory(private val context: Context) : ViewModelProvider.Factory
             }
             modelClass.isAssignableFrom(CategoryViewModel::class.java) -> {
                 val repository = CategoryRepository(CategoryRemoteDataSource(ApiClient.creat()))
-                CategoryViewModel(repository)as T
+                CategoryViewModel(repository) as T
             }
+            modelClass.isAssignableFrom(CategoryViewModel::class.java) -> {
+                val repository = CategoryDetailRepository(CategoryDetailRemoteDataSource(ApiClient.creat()))
+                CategoryDetailViewModel(repository) as T
+
+            }
+
             else -> {
                 throw IllegalArgumentException("Failed to created ViewModel: ${modelClass.name}")
 

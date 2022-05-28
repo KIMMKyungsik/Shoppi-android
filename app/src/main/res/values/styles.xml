@@ -82,6 +82,7 @@
         <item name="android:textStyle">bold</item>
     </style>
 
+
     <style name="TextSubtitle2.Purple">
         <item name="android:textColor">@color/shoppi_purple</item>
     </style>

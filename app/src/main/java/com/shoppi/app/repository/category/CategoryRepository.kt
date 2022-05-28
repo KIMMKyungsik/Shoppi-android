@@ -1,7 +1,6 @@
-package com.shoppi.app.repository
+package com.shoppi.app.repository.category
 
 import com.shoppi.app.model.Category
-import java.util.*
 
 class CategoryRepository(
     private val remoteDataSource: CategoryRemoteDataSource
