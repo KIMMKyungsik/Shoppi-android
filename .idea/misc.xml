@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/LG/Desktop/Shoppi-android/app/src/main/res/drawable/background_bluegrey_r20.xml" value="0.244" />
+        <entry key="..\:/Users/LG/Desktop/Shoppi-android/app/src/main/res/drawable/background_circle_gradient.xml" value="0.244" />
         <entry key="..\:/Users/LG/Desktop/Shoppi-android/app/src/main/res/drawable/background_purple_r24.xml" value="0.244" />
         <entry key="..\:/Users/LG/Desktop/Shoppi-android/app/src/main/res/drawable/background_splash_screen.xml" value="0.37916666666666665" />
         <entry key="..\:/Users/LG/Desktop/Shoppi-android/app/src/main/res/drawable/background_white.xml" value="0.37916666666666665" />
@@ -23,6 +24,8 @@
         <entry key="..\:/Users/LG/Desktop/Shoppi-android/app/src/main/res/layout/fragment_product_detail.xml" value="0.36302083333333335" />
         <entry key="..\:/Users/LG/Desktop/Shoppi-android/app/src/main/res/layout/item_category.xml" value="0.25" />
         <entry key="..\:/Users/LG/Desktop/Shoppi-android/app/src/main/res/layout/item_category_promotion.xml" value="0.36302083333333335" />
+        <entry key="..\:/Users/LG/Desktop/Shoppi-android/app/src/main/res/layout/item_category_top_selling.xml" value="0.5" />
+        <entry key="..\:/Users/LG/Desktop/Shoppi-android/app/src/main/res/layout/item_category_top_selling_section.xml" value="0.33" />
         <entry key="..\:/Users/LG/Desktop/Shoppi-android/app/src/main/res/layout/item_home_banner.xml" value="0.36302083333333335" />
         <entry key="..\:/Users/LG/Desktop/Shoppi-android/app/src/main/res/layout/item_title.xml" value="0.36302083333333335" />
         <entry key="..\:/Users/LG/Desktop/Shoppi-android/app/src/main/res/menu/navigation_main_menu.xml" value="0.36302083333333335" />
