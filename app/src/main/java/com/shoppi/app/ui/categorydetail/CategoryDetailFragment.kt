@@ -27,7 +27,6 @@ class CategoryDetailFragment : Fragment() {
         return binding.root
 
 
-
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -48,12 +47,17 @@ class CategoryDetailFragment : Fragment() {
 
     protected fun setListAdapter() {
 
-
+        val topSellingSectionAdapter = CategoryTopSellingSectionAdapter()
         val titleAdapter = CategorySectionTitleAdapter()
         val promotionAdapter = CategoryPromotionAdapter()
-        binding.rvCategoryDetail.adapter = ConcatAdapter(titleAdapter, promotionAdapter)
+        binding.rvCategoryDetail.adapter =
+            ConcatAdapter(topSellingSectionAdapter, titleAdapter, promotionAdapter)
+        viewModel.topSelling.observe(viewLifecycleOwner) { topSelling ->
+            topSellingSectionAdapter.submitList(listOf(topSelling))
 
-        viewModel.promotions.observe(viewLifecycleOwner){ promotions ->
+
+        }
+        viewModel.promotions.observe(viewLifecycleOwner) { promotions ->
             titleAdapter.submitList(listOf(promotions.title))
             promotionAdapter.submitList(promotions.items)
 

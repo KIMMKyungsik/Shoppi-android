@@ -1,7 +1,6 @@
 package com.shoppi.app.model
 
 import com.google.gson.annotations.SerializedName
-import com.shoppi.app.Product
 
 data class CategoryDetail(
     @SerializedName("top_selling") val topSelling: TopSelling,
