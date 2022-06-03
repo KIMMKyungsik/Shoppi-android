@@ -5,7 +5,8 @@ import com.shoppi.app.Banner
 
 data class HomeData(
     val title: Title,
-    @SerializedName("top banners") val topBanners : List<Banner>
+    @SerializedName("top banners") val topBanners : List<Banner>,
+    val promotions : Promotion
 
 
 )
