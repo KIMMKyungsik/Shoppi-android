@@ -6,6 +6,9 @@
     <data>
 
         <variable
+            name="viewModel"
+            type="com.shoppi.app.ui.productdetail.ProductDetailViewModel" />
+        <variable
             name="product"
             type="com.shoppi.app.model.Product" />
     </data>
@@ -74,7 +77,7 @@
 
 
                 <TextView
-                    android:id="@+id/tv_product_lable"
+                    android:id="@+id/tv_product_label"
                     style="@style/TextMedium"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -97,7 +100,7 @@
                     android:layout_marginTop="20dp"
                     android:text="@{@string/unit_discount_rate(product.discountRate)}"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/tv_product_lable"
+                    app:layout_constraintTop_toBottomOf="@id/tv_product_label"
                     tools:text="10%" />
 
                 <TextView
@@ -201,6 +204,7 @@
                 android:layout_marginTop="12dp"
                 android:layout_marginEnd="16dp"
                 android:layout_marginBottom="12dp"
+                android:onClick="@{() -> viewModel.addCart(product)}"
                 android:background="@drawable/background_gradient_r24"
                 android:text="장바구니 담기"
                 app:layout_constraintBottom_toBottomOf="parent"

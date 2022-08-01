@@ -15,7 +15,7 @@ data class Banner(
 data class BannerBadge(
 
     val label: String,
-    @SerializedName("backgroundcolor") val backGroundColor: String
+    @SerializedName("background_color") val backGroundColor: String
 )
 
 

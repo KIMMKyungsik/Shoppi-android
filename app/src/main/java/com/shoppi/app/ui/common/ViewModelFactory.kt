@@ -5,7 +5,6 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.shoppi.app.AssetLoader
 import com.shoppi.app.ServiceLocator
-import com.shoppi.app.network.ApiClient
 import com.shoppi.app.repository.category.CategoryRemoteDataSource
 import com.shoppi.app.repository.category.CategoryRepository
 import com.shoppi.app.repository.categorydetail.CategoryDetailRemoteDataSource
@@ -19,7 +18,6 @@ import com.shoppi.app.ui.categorydetail.CategoryDetailViewModel
 import com.shoppi.app.ui.home.HomeViewModel
 import com.shoppi.app.ui.productdetail.ProductDetailRepository
 import com.shoppi.app.ui.productdetail.ProductDetailViewModel
-import java.lang.IllegalArgumentException
 
 class ViewModelFactory(private val context: Context) : ViewModelProvider.Factory {
 
@@ -45,11 +43,11 @@ class ViewModelFactory(private val context: Context) : ViewModelProvider.Factory
             modelClass.isAssignableFrom(ProductDetailViewModel::class.java) -> {
                 val repository =
                     ProductDetailRepository(ProductDetailRemoteDataSource(ServiceLocator.provideApiClient()))
-                ProductDetailViewModel(repository) as T
+                ProductDetailViewModel(repository,ServiceLocator.providerCartRepository(context)) as T
             }
 
             modelClass.isAssignableFrom(CartViewModel::class.java) -> {
-                CartViewModel() as T
+                CartViewModel(ServiceLocator.providerCartRepository(context)) as T
 
             }
 

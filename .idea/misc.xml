@@ -37,11 +37,20 @@
         <entry key="..\:/Users/LG/Desktop/Shoppi-android/app/src/main/res/layout/item_product_description.xml" value="0.36302083333333335" />
         <entry key="..\:/Users/LG/Desktop/Shoppi-android/app/src/main/res/layout/item_title.xml" value="0.36302083333333335" />
         <entry key="..\:/Users/LG/Desktop/Shoppi-android/app/src/main/res/menu/navigation_main_menu.xml" value="0.36302083333333335" />
+        <entry key="..\:/Users/user/Desktop/Shoppi-android/app/src/main/res/drawable/background_splash_screen.xml" value="0.146" />
+        <entry key="..\:/Users/user/Desktop/Shoppi-android/app/src/main/res/layout/activity_main.xml" value="0.2520833333333333" />
         <entry key="..\:/Users/user/Desktop/Shoppi-android/app/src/main/res/layout/fragment_cart.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/user/Desktop/Shoppi-android/app/src/main/res/layout/fragment_category_detail.xml" value="0.2375" />
         <entry key="..\:/Users/user/Desktop/Shoppi-android/app/src/main/res/layout/fragment_home.xml" value="0.11145833333333334" />
+        <entry key="..\:/Users/user/Desktop/Shoppi-android/app/src/main/res/layout/fragment_product_detail.xml" value="0.2520833333333333" />
         <entry key="..\:/Users/user/Desktop/Shoppi-android/app/src/main/res/layout/item_cart_section.xml" value="0.2520833333333333" />
         <entry key="..\:/Users/user/Desktop/Shoppi-android/app/src/main/res/layout/item_cart_section_header.xml" value="0.2520833333333333" />
         <entry key="..\:/Users/user/Desktop/Shoppi-android/app/src/main/res/layout/item_category.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Shoppi-android/app/src/main/res/layout/item_category_promotion.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/user/Desktop/Shoppi-android/app/src/main/res/layout/item_category_top_selling.xml" value="0.2375" />
+        <entry key="..\:/Users/user/Desktop/Shoppi-android/app/src/main/res/layout/item_home_banner.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/user/Desktop/Shoppi-android/app/src/main/res/layout/item_product_description.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Shoppi-android/app/src/main/res/layout/item_title.xml" value="0.2520833333333333" />
       </map>
     </option>
   </component>
